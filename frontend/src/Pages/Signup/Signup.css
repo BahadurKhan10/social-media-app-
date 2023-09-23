@@ -1,0 +1,81 @@
+.loginWrapper {
+  /* background-color: yellow; */
+  height: 50vh;
+  width: 60vw;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.left-side {
+  line-height: 50px;
+  margin-top: 180px;
+}
+.logo-name {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0056b3;
+}
+.logo-dec {
+  font-size: 24px;
+  font-weight: 500;
+  /* font-weight: 500; */
+}
+/* Basic styles for the login form */
+.loginBox {
+  width: 300px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.loginForgot {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.loginRegisterButton {
+  width: 70%;
+  padding: 10px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginRegisterButton:hover {
+  background-color: #1e7e34;
+}
