@@ -4,14 +4,15 @@ import PermMediaIcon from "@mui/icons-material/PermMedia";
 import LabelIcon from "@mui/icons-material/Label";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
+import logo from './profilepic.jpg'
 function Share() {
   return (
     <div className="share">
       <div className="shareWrapper">
         <div className="shareTop">
-          <img className="shareProfileImg" src="\assets\person1.jpg" alt="" />
+          <img className="shareProfileImg" src={logo} alt="" />
           <input
-            placeholder="What's in your mind Safak?"
+            placeholder="What's on your mind Bahadur?"
             className="shareInput"
           />
         </div>

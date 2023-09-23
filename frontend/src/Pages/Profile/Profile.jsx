@@ -17,7 +17,7 @@ function Profile() {
                             <img   className='pro-main-image' src="\assets\profileimagemain.jpeg" alt="" />
                         </div>
                         <div className="profile-info">
-                            <h4 className='p-name'>Rock</h4>
+                            <h4 className='p-name'>Jhanzeb</h4>
                             <span  className='p-para'>Hello World </span>
                         </div>
                     </div>

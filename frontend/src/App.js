@@ -11,6 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" Component={Home} ></Route>
+        <Route path="/home" Component={Home} ></Route>
       </Routes>
       <Routes>
         <Route path="/login" Component={Login}></Route>

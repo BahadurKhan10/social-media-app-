@@ -9,7 +9,7 @@ function RightBar({ profile }) {
       <div className="Birthday-Container">
         <img src="\assets\birthdayGift.png" alt="" />
         <div className="bir-text">
-          <b>SYEDHaseeb</b> and <b>Other Friends</b> have a Birthday today .
+          <b>Ismail</b> and <b>Other Friends</b> have a Birthday today .
         </div>
       </div>
       <img className="r-b-add" src="\assets\add1.jpg" alt="" />
