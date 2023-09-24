@@ -10,7 +10,7 @@ function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topBarLeft">
-        <span className="web-logo">MR Social Media</span>
+        <span className="web-logo">Social Media App</span>
       </div>
       <div className="topBarCenter">
         <div className="searchBar">
